@@ -1,0 +1,40 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #dde6ed;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 0px; /* Sesuaikan ukuran gambar sesuai kebutuhan Anda */
+    height: auto;
+    margin: 0;
+	margin-top: 18%;
+    margin-bottom: 10px; /* Berikan jarak di bawah gambar */
+}
+
+#diagram {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 471px;
+    color: #000000;
+    background: #ffffff;
+}
+
+#java {
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    width: 471px;
+    color: #000000;
+    background: #ffffff;
+}

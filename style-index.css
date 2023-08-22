@@ -1,0 +1,98 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #dde6ed;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 92px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Menengahkan konten secara vertikal */
+    background: #526d82;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    width: 145px;
+    margin-bottom: 40px;
+    display: flex; /* Mengatur konten dalam div menjadi flexbox */
+    flex-direction: column; /* Menyusun tombol secara vertikal */
+    justify-content: center; /* Menengahkan tombol secara horizontal */
+    align-items: center; /* Menengahkan tombol secara vertikal */
+}
+.main {
+    position: absolute;
+    left:180px; top:92px; right:0%; bottom:0;
+    margin-top: 10px;
+}
+
+.top button {
+    margin-right: 15px; /* Jarak antara tombol */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 70px;
+}
+
+.left button {
+    margin-top: 10px; /* Jarak antara tombol */
+    margin-left: 20px; /* Jarak antara tombol */
+    padding: 10px 20px;
+    font-size: 16px;
+    height: 50px;
+}
+.left h2 {
+    margin-top: 10px; /* Jarak antara tombol */
+    margin-left: 20px; /* Jarak antara tombol */
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.top img {
+    margin-right: 850px;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.modal-body h3 {
+    text-align: center;
+}
+
+#d_tr {
+    text-align: center;
+}
+
+#d_ex {
+    text-align: center;
+}
+
+#d_both {
+    text-align: center;
+}
+
+.invalid-feedback {
+    color: red;
+    display: none;
+}
+
+#df2 #inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tambah_atr {
+    width: 100%;
+}
+
+hr {
+    width:100%;
+    border-width: 3px;
+}
