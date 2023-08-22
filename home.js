@@ -3,7 +3,7 @@ var upload = document.getElementById("fileinput");
 let javas = [];
 
 function workspace() {
-    window.location.href = "index.html";
+    window.location.href = "operate.html";
 }
 
 // Simple JavaScript Promise that reads a file as text.
@@ -208,6 +208,6 @@ function cek() {
         var arrayString = JSON.stringify(wholeClass);
         console.log(wholeClass);
         localStorage.setItem('classes', arrayString);
-        window.location.href = "index.html";
+        window.location.href = "operate.html";
     }
 }
